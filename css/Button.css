@@ -9,10 +9,50 @@
 .accent{ color:#FF6666; font-weight:bold;}
 .accent_final{color:#FF6666; font-weight:bold; font-size:20px;}
 
+/* prev/next 버튼 */
+#prevNextButtonBox{
+    position:relative;
+    z-index:10;
+}
+
+#prevButton{
+    position:absolute;
+    top:201px;
+    left:0.2%;
+    opacity:0.8;
+    cursor:pointer;
+}
+
+#nextButton{
+    position:absolute;
+    top:201px;
+    right:0.2%;
+    opacity:0.8;
+    cursor:pointer;
+}
+
+#prevButton:hover{ opacity:1; }
+#nextButton:hover{ opacity:1; }
+/* --------------------------- prev/next버튼 끝 ---------------------------*/
+.problemSlide{
+    width:800px;
+    height:600px;
+    overflow:hidden; /* 영역 벗어나면 숨김 */
+}
+
+.problemBox{
+    display:flex;
+    width:1000px;
+    height:400px;
+}
+
 .problem{
+    padding-left:50px;
+    padding-right:50px;
     width:800px;
     height:400px;
 }
+
 
 #Goal{
     width:1000px;
@@ -101,6 +141,7 @@
 }
 
 /* 컨트롤 버튼 */
+#controlPannel{ margin:0 auto; width:320px; height:20px; margin-top:20px;}
 #controlPanel{ margin:0 auto; width:320px; height:20px; margin-top:20px;}
 #controlPanel2{ margin:0 auto; width:500px; height:40px;margin-top:20px;}
 
