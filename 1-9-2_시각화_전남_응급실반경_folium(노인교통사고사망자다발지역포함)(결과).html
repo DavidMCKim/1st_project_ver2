@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b2b3165e0d1243d7b16f2b8f6c1ba60d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b2b3165e0d1243d7b16f2b8f6c1ba60d" ></div>
+        
+</body>
+<script>    
+    
+            var map_b2b3165e0d1243d7b16f2b8f6c1ba60d = L.map(
+                "map_b2b3165e0d1243d7b16f2b8f6c1ba60d",
+                {
+                    center: [35.06103569534745, 126.94581733182362],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b8be7e9fd2454e99895ad162615e0c1f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_677cb7c1d9c244ebaa6a177e76492c7b = L.marker(
+                [34.8094131, 126.4164009],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_c269e649c7ac4e229147c82de755f412 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_677cb7c1d9c244ebaa6a177e76492c7b.setIcon(icon_c269e649c7ac4e229147c82de755f412);
+        
+    
+        var popup_3812ef7e82b743a5a35fc120e423faac = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_72968fb509c148ef99658df4c7df454e = $(`<div id="html_72968fb509c148ef99658df4c7df454e" style="width: 100.0%; height: 100.0%;">목포한국병원</div>`)[0];
+            popup_3812ef7e82b743a5a35fc120e423faac.setContent(html_72968fb509c148ef99658df4c7df454e);
+        
+
+        marker_677cb7c1d9c244ebaa6a177e76492c7b.bindPopup(popup_3812ef7e82b743a5a35fc120e423faac)
+        ;
+
+        
+    
+    
+            var circle_e68e8b5a3104432bb58696a1d332b2fb = L.circle(
+                [34.8094131, 126.4164009],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_7b19a181ea5845019c23522151dd2f88 = L.marker(
+                [34.9646324, 127.5437369],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_0eabeb75d6f84eccae769b3b43cc1092 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7b19a181ea5845019c23522151dd2f88.setIcon(icon_0eabeb75d6f84eccae769b3b43cc1092);
+        
+    
+        var popup_c9f13024fae044f992f5e4c3a6c31172 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_66aee24ca00340f986fc405c1f07d7b3 = $(`<div id="html_66aee24ca00340f986fc405c1f07d7b3" style="width: 100.0%; height: 100.0%;">성가롤로병원</div>`)[0];
+            popup_c9f13024fae044f992f5e4c3a6c31172.setContent(html_66aee24ca00340f986fc405c1f07d7b3);
+        
+
+        marker_7b19a181ea5845019c23522151dd2f88.bindPopup(popup_c9f13024fae044f992f5e4c3a6c31172)
+        ;
+
+        
+    
+    
+            var circle_af5b5f15f7fb452eafe021ad9244b159 = L.circle(
+                [34.9646324, 127.5437369],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_770a33fde4c1437aabcb697250c05377 = L.marker(
+                [35.0593098, 127.0026172],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_ebb152fca5454bc7bfd462aeb99b3adb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_770a33fde4c1437aabcb697250c05377.setIcon(icon_ebb152fca5454bc7bfd462aeb99b3adb);
+        
+    
+        var popup_5e7aae5d2e5f48018211e7b6bd97c365 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_daf16942651545e98bd46a19d4dadcf7 = $(`<div id="html_daf16942651545e98bd46a19d4dadcf7" style="width: 100.0%; height: 100.0%;">화순전남대학교병원</div>`)[0];
+            popup_5e7aae5d2e5f48018211e7b6bd97c365.setContent(html_daf16942651545e98bd46a19d4dadcf7);
+        
+
+        marker_770a33fde4c1437aabcb697250c05377.bindPopup(popup_5e7aae5d2e5f48018211e7b6bd97c365)
+        ;
+
+        
+    
+    
+            var circle_c327a45955fb4b4c828d2cc2f1f6a31a = L.circle(
+                [35.0593098, 127.0026172],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_73aab87d56444e4181303934b4157758 = L.marker(
+                [34.7690776, 127.6542576],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_b084162402e949248fd12b296ffca51a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_73aab87d56444e4181303934b4157758.setIcon(icon_b084162402e949248fd12b296ffca51a);
+        
+    
+        var popup_3ec51a79cdd345c99932db8e064d1b95 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_37c501c97b00468c9bbb3e08205b24a4 = $(`<div id="html_37c501c97b00468c9bbb3e08205b24a4" style="width: 100.0%; height: 100.0%;">여천전남병원</div>`)[0];
+            popup_3ec51a79cdd345c99932db8e064d1b95.setContent(html_37c501c97b00468c9bbb3e08205b24a4);
+        
+
+        marker_73aab87d56444e4181303934b4157758.bindPopup(popup_3ec51a79cdd345c99932db8e064d1b95)
+        ;
+
+        
+    
+    
+            var circle_70d0f7bdee674b0ab040d23ece7a2154 = L.circle(
+                [34.7690776, 127.6542576],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_821fcd8f385e42e293ae654b4c75ab3f = L.marker(
+                [34.821301, 126.421011],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_d09fec569e35492e871ac368eacde40b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_821fcd8f385e42e293ae654b4c75ab3f.setIcon(icon_d09fec569e35492e871ac368eacde40b);
+        
+    
+        var popup_274078a2a6154a5db052a32f89083e02 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_aeeeed4f21194785a4b2cf3dce4bfd51 = $(`<div id="html_aeeeed4f21194785a4b2cf3dce4bfd51" style="width: 100.0%; height: 100.0%;">의료법인목포구암의료재단 목포중앙병원</div>`)[0];
+            popup_274078a2a6154a5db052a32f89083e02.setContent(html_aeeeed4f21194785a4b2cf3dce4bfd51);
+        
+
+        marker_821fcd8f385e42e293ae654b4c75ab3f.bindPopup(popup_274078a2a6154a5db052a32f89083e02)
+        ;
+
+        
+    
+    
+            var circle_f2a8e606a1b04d0f9a0cf82fb77dd0ee = L.circle(
+                [34.821301, 126.421011],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_1c7b3aaece4a4b1c8416f1028d7bcc33 = L.marker(
+                [34.936145, 127.696966],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_4f4ff92133c9402a800e51a92b158c73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1c7b3aaece4a4b1c8416f1028d7bcc33.setIcon(icon_4f4ff92133c9402a800e51a92b158c73);
+        
+    
+        var popup_606438eace9f49cb9f3dea890050287d = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_a279497d9d2c471dae1985fd4ac57909 = $(`<div id="html_a279497d9d2c471dae1985fd4ac57909" style="width: 100.0%; height: 100.0%;">광양사랑병원</div>`)[0];
+            popup_606438eace9f49cb9f3dea890050287d.setContent(html_a279497d9d2c471dae1985fd4ac57909);
+        
+
+        marker_1c7b3aaece4a4b1c8416f1028d7bcc33.bindPopup(popup_606438eace9f49cb9f3dea890050287d)
+        ;
+
+        
+    
+    
+            var circle_188a12507b2842b4abddadf6130f91f5 = L.circle(
+                [34.936145, 127.696966],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_164af76fb89d4be0bd0ca803da54ccb9 = L.marker(
+                [34.961136, 127.5251537],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_d2269d279f504e23bb5a6d5ec6bc741b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_164af76fb89d4be0bd0ca803da54ccb9.setIcon(icon_d2269d279f504e23bb5a6d5ec6bc741b);
+        
+    
+        var popup_e12f3871287f4150a05629c0305db2e9 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_dd29cf2dee16433aab01d53a2bc2c84b = $(`<div id="html_dd29cf2dee16433aab01d53a2bc2c84b" style="width: 100.0%; height: 100.0%;">근로복지공단 순천병원</div>`)[0];
+            popup_e12f3871287f4150a05629c0305db2e9.setContent(html_dd29cf2dee16433aab01d53a2bc2c84b);
+        
+
+        marker_164af76fb89d4be0bd0ca803da54ccb9.bindPopup(popup_e12f3871287f4150a05629c0305db2e9)
+        ;
+
+        
+    
+    
+            var circle_62f83b0ee1d6450c8876570d630f7bdf = L.circle(
+                [34.961136, 127.5251537],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_5de20cadc9324a6b9dc347cd953a0388 = L.marker(
+                [35.0366967, 126.7215888],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_740922a022b94745b7fe37bab39882fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5de20cadc9324a6b9dc347cd953a0388.setIcon(icon_740922a022b94745b7fe37bab39882fd);
+        
+    
+        var popup_86b2a084bbdc44c99f13b79918aef72a = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_e752959b8699467893f2b2dc5a5d3391 = $(`<div id="html_e752959b8699467893f2b2dc5a5d3391" style="width: 100.0%; height: 100.0%;">나주종합병원</div>`)[0];
+            popup_86b2a084bbdc44c99f13b79918aef72a.setContent(html_e752959b8699467893f2b2dc5a5d3391);
+        
+
+        marker_5de20cadc9324a6b9dc347cd953a0388.bindPopup(popup_86b2a084bbdc44c99f13b79918aef72a)
+        ;
+
+        
+    
+    
+            var circle_2d7b903a42054b7fa0c860b17c7ef90f = L.circle(
+                [35.0366967, 126.7215888],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_072b8fc42b4b42cc9dc634674f578738 = L.marker(
+                [34.9914382, 126.4891531],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_29fd3a10a0a74685abc734607c71b7e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_072b8fc42b4b42cc9dc634674f578738.setIcon(icon_29fd3a10a0a74685abc734607c71b7e9);
+        
+    
+        var popup_2bc84b0a1d8141008d740ee024766b01 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_14e16375e8ea4322b3a637c2773b2009 = $(`<div id="html_14e16375e8ea4322b3a637c2773b2009" style="width: 100.0%; height: 100.0%;">대송의료재단무안병원</div>`)[0];
+            popup_2bc84b0a1d8141008d740ee024766b01.setContent(html_14e16375e8ea4322b3a637c2773b2009);
+        
+
+        marker_072b8fc42b4b42cc9dc634674f578738.bindPopup(popup_2bc84b0a1d8141008d740ee024766b01)
+        ;
+
+        
+    
+    
+            var circle_04a6c3903ea444b6a1328b462182b6d0 = L.circle(
+                [34.9914382, 126.4891531],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_25401c19caba4a58a5177314749f8805 = L.marker(
+                [34.8044415, 126.4205118],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_6e5bbf3910704a3eb95d0a848e2f15d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_25401c19caba4a58a5177314749f8805.setIcon(icon_6e5bbf3910704a3eb95d0a848e2f15d2);
+        
+    
+        var popup_c64f325eedc948808e62fb40c33e328c = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_8cfb863ebbd14c57bd318352c135a84c = $(`<div id="html_8cfb863ebbd14c57bd318352c135a84c" style="width: 100.0%; height: 100.0%;">목포기독병원</div>`)[0];
+            popup_c64f325eedc948808e62fb40c33e328c.setContent(html_8cfb863ebbd14c57bd318352c135a84c);
+        
+
+        marker_25401c19caba4a58a5177314749f8805.bindPopup(popup_c64f325eedc948808e62fb40c33e328c)
+        ;
+
+        
+    
+    
+            var circle_d0b554dd7f1449358b22f348460ef9a9 = L.circle(
+                [34.8044415, 126.4205118],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_42a027f6df9b4160bf4b40babbea7a8d = L.marker(
+                [34.8039025, 126.4054617],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_38f0e37206544c04a7c98663f3c03186 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_42a027f6df9b4160bf4b40babbea7a8d.setIcon(icon_38f0e37206544c04a7c98663f3c03186);
+        
+    
+        var popup_887465695b9d4e039833bb495a2ab46e = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_53da6f1484d34f7b8b4a60140adf434a = $(`<div id="html_53da6f1484d34f7b8b4a60140adf434a" style="width: 100.0%; height: 100.0%;">목포시의료원</div>`)[0];
+            popup_887465695b9d4e039833bb495a2ab46e.setContent(html_53da6f1484d34f7b8b4a60140adf434a);
+        
+
+        marker_42a027f6df9b4160bf4b40babbea7a8d.bindPopup(popup_887465695b9d4e039833bb495a2ab46e)
+        ;
+
+        
+    
+    
+            var circle_9edde0f0cb7e4cf18c47f671d3c3b9c3 = L.circle(
+                [34.8039025, 126.4054617],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_5ef0889b3d5b4b549eeb3cc27347d00b = L.marker(
+                [34.9549256, 127.5242812],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_24e66d92e91f42f293d4a53f6b0aaaa2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5ef0889b3d5b4b549eeb3cc27347d00b.setIcon(icon_24e66d92e91f42f293d4a53f6b0aaaa2);
+        
+    
+        var popup_ca87a56caae1438fbcc5ee6da12a9caa = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_d61d327135104061bbf9b1dcd14edb27 = $(`<div id="html_d61d327135104061bbf9b1dcd14edb27" style="width: 100.0%; height: 100.0%;">순천제일병원</div>`)[0];
+            popup_ca87a56caae1438fbcc5ee6da12a9caa.setContent(html_d61d327135104061bbf9b1dcd14edb27);
+        
+
+        marker_5ef0889b3d5b4b549eeb3cc27347d00b.bindPopup(popup_ca87a56caae1438fbcc5ee6da12a9caa)
+        ;
+
+        
+    
+    
+            var circle_1de4621da9d845ec8995328a157592c7 = L.circle(
+                [34.9549256, 127.5242812],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_ee573a83fabb40c5be926c429fb8d716 = L.marker(
+                [34.7447253, 127.7280156],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_54408996392844bfba734555e28b7214 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ee573a83fabb40c5be926c429fb8d716.setIcon(icon_54408996392844bfba734555e28b7214);
+        
+    
+        var popup_85b8b61bcbb24846b39720e397aa8531 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_286336bc5f5e4ff19268b440749d8311 = $(`<div id="html_286336bc5f5e4ff19268b440749d8311" style="width: 100.0%; height: 100.0%;">여수전남병원</div>`)[0];
+            popup_85b8b61bcbb24846b39720e397aa8531.setContent(html_286336bc5f5e4ff19268b440749d8311);
+        
+
+        marker_ee573a83fabb40c5be926c429fb8d716.bindPopup(popup_85b8b61bcbb24846b39720e397aa8531)
+        ;
+
+        
+    
+    
+            var circle_c4043e79ba7647a586cce8b0a96f6eda = L.circle(
+                [34.7447253, 127.7280156],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_51bdd827ab0347eba2d55eb0e2e21748 = L.marker(
+                [35.2844869, 126.4989822],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_a74a271a0b114296bd66ec2e8a3bae34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_51bdd827ab0347eba2d55eb0e2e21748.setIcon(icon_a74a271a0b114296bd66ec2e8a3bae34);
+        
+    
+        var popup_93ffb82caf544ad5a6a9670d7c124ec7 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_3882a7d0ab2c4ac3b59cf83267dc8176 = $(`<div id="html_3882a7d0ab2c4ac3b59cf83267dc8176" style="width: 100.0%; height: 100.0%;">영광종합병원</div>`)[0];
+            popup_93ffb82caf544ad5a6a9670d7c124ec7.setContent(html_3882a7d0ab2c4ac3b59cf83267dc8176);
+        
+
+        marker_51bdd827ab0347eba2d55eb0e2e21748.bindPopup(popup_93ffb82caf544ad5a6a9670d7c124ec7)
+        ;
+
+        
+    
+    
+            var circle_c4106ae4a1d148efac02013ca6c1d501 = L.circle(
+                [35.2844869, 126.4989822],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_dffa62179c164bab9a4e18013d55bebd = L.marker(
+                [35.2749984, 126.5110264],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_d2a370e41e884f38bb04a815e416abde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_dffa62179c164bab9a4e18013d55bebd.setIcon(icon_d2a370e41e884f38bb04a815e416abde);
+        
+    
+        var popup_5ebeb6e7dca54935bc82097a743ec89a = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_fd10293f6391481185174b48de7d7360 = $(`<div id="html_fd10293f6391481185174b48de7d7360" style="width: 100.0%; height: 100.0%;">의료법인 거명의료재단 영광기독병원</div>`)[0];
+            popup_5ebeb6e7dca54935bc82097a743ec89a.setContent(html_fd10293f6391481185174b48de7d7360);
+        
+
+        marker_dffa62179c164bab9a4e18013d55bebd.bindPopup(popup_5ebeb6e7dca54935bc82097a743ec89a)
+        ;
+
+        
+    
+    
+            var circle_3e7b8a02932e4d0388eb5968c83570aa = L.circle(
+                [35.2749984, 126.5110264],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_e2a4c3977ef8483186b026812b39e514 = L.marker(
+                [34.6771036, 126.9109408],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_26814afb759743eda1463b122196e0d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e2a4c3977ef8483186b026812b39e514.setIcon(icon_26814afb759743eda1463b122196e0d9);
+        
+    
+        var popup_fee1d440fdff43ea8dfd495fc62167ea = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_57855338c5074db78f11d14c0cbc62a0 = $(`<div id="html_57855338c5074db78f11d14c0cbc62a0" style="width: 100.0%; height: 100.0%;">의료법인 우범의료재단 장흥종합병원</div>`)[0];
+            popup_fee1d440fdff43ea8dfd495fc62167ea.setContent(html_57855338c5074db78f11d14c0cbc62a0);
+        
+
+        marker_e2a4c3977ef8483186b026812b39e514.bindPopup(popup_fee1d440fdff43ea8dfd495fc62167ea)
+        ;
+
+        
+    
+    
+            var circle_eeea098d33c54eb8ab19d2714ac12068 = L.circle(
+                [34.6771036, 126.9109408],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_314e1894fef3403587f7a69843c5531f = L.marker(
+                [34.6210043, 127.2939397],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_ff592fb2429b47d6b266c4f56ecf7917 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_314e1894fef3403587f7a69843c5531f.setIcon(icon_ff592fb2429b47d6b266c4f56ecf7917);
+        
+    
+        var popup_6f62043dbd02456fbfb4befe1d8fd4cd = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_17511ee6645a4c159af19ad14175db19 = $(`<div id="html_17511ee6645a4c159af19ad14175db19" style="width: 100.0%; height: 100.0%;">의료법인영성의료재단고흥종합병원</div>`)[0];
+            popup_6f62043dbd02456fbfb4befe1d8fd4cd.setContent(html_17511ee6645a4c159af19ad14175db19);
+        
+
+        marker_314e1894fef3403587f7a69843c5531f.bindPopup(popup_6f62043dbd02456fbfb4befe1d8fd4cd)
+        ;
+
+        
+    
+    
+            var circle_d2e6a2f7ab9645dfa612998a8eedcf7a = L.circle(
+                [34.6210043, 127.2939397],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_c87bd9be1c2746bf89293d5cd53acc5f = L.marker(
+                [34.9476145, 127.5125098],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_915b049fe2c642a2adb2980bcf888784 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c87bd9be1c2746bf89293d5cd53acc5f.setIcon(icon_915b049fe2c642a2adb2980bcf888784);
+        
+    
+        var popup_7dac87cb67ca46ada0b054782f322420 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_59fbf105d7c74e42b803df997c868773 = $(`<div id="html_59fbf105d7c74e42b803df997c868773" style="width: 100.0%; height: 100.0%;">순천한국병원</div>`)[0];
+            popup_7dac87cb67ca46ada0b054782f322420.setContent(html_59fbf105d7c74e42b803df997c868773);
+        
+
+        marker_c87bd9be1c2746bf89293d5cd53acc5f.bindPopup(popup_7dac87cb67ca46ada0b054782f322420)
+        ;
+
+        
+    
+    
+            var circle_c8bdfc72af2c43d780b227efec25f2d1 = L.circle(
+                [34.9476145, 127.5125098],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_bbbb12de208841838ced2ab0e3851560 = L.marker(
+                [34.8170249, 126.3802509],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_0f66c225ba0848d2b377fb6a7c8c2a54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bbbb12de208841838ced2ab0e3851560.setIcon(icon_0f66c225ba0848d2b377fb6a7c8c2a54);
+        
+    
+        var popup_3152a0663db34ca193223eba6abb5ffe = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_c3c2a6015fb140b0bb969dc9b1edab17 = $(`<div id="html_c3c2a6015fb140b0bb969dc9b1edab17" style="width: 100.0%; height: 100.0%;">의료법인해민의료재단 세안종합병원</div>`)[0];
+            popup_3152a0663db34ca193223eba6abb5ffe.setContent(html_c3c2a6015fb140b0bb969dc9b1edab17);
+        
+
+        marker_bbbb12de208841838ced2ab0e3851560.bindPopup(popup_3152a0663db34ca193223eba6abb5ffe)
+        ;
+
+        
+    
+    
+            var circle_5db9eab8ffe9480ea9a100259b13953f = L.circle(
+                [34.8170249, 126.3802509],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_eb43e6974b4b4c9983ffbd8c61a6ee8a = L.marker(
+                [34.5716667, 126.6128048],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_8a0d2fdb478b41e8b3af0050bfcdfc06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_eb43e6974b4b4c9983ffbd8c61a6ee8a.setIcon(icon_8a0d2fdb478b41e8b3af0050bfcdfc06);
+        
+    
+        var popup_b1dd1cc4e23e4c939d061ab899543cf6 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_10616dc2591045acb26c596f039da1d2 = $(`<div id="html_10616dc2591045acb26c596f039da1d2" style="width: 100.0%; height: 100.0%;">의료법인행촌의료재단 해남종합병원</div>`)[0];
+            popup_b1dd1cc4e23e4c939d061ab899543cf6.setContent(html_10616dc2591045acb26c596f039da1d2);
+        
+
+        marker_eb43e6974b4b4c9983ffbd8c61a6ee8a.bindPopup(popup_b1dd1cc4e23e4c939d061ab899543cf6)
+        ;
+
+        
+    
+    
+            var circle_06ddc715fedb4a70a2a1a8c798683df7 = L.circle(
+                [34.5716667, 126.6128048],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_9d1dafa792ab4b26960e4dfed00887fc = L.marker(
+                [34.5834271, 126.6459248],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_d8c14a29d8f249e1b065eb28b08a5801 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9d1dafa792ab4b26960e4dfed00887fc.setIcon(icon_d8c14a29d8f249e1b065eb28b08a5801);
+        
+    
+        var popup_514a6aacbd6a4bcc919e475f857f5870 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_62b92c32e6ec4aad8471bee19d4d2cf4 = $(`<div id="html_62b92c32e6ec4aad8471bee19d4d2cf4" style="width: 100.0%; height: 100.0%;">해남우리종합병원</div>`)[0];
+            popup_514a6aacbd6a4bcc919e475f857f5870.setContent(html_62b92c32e6ec4aad8471bee19d4d2cf4);
+        
+
+        marker_9d1dafa792ab4b26960e4dfed00887fc.bindPopup(popup_514a6aacbd6a4bcc919e475f857f5870)
+        ;
+
+        
+    
+    
+            var circle_816461742b184b14a9c803395a406350 = L.circle(
+                [34.5834271, 126.6459248],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5242.5, "stroke": true, "weight": 3}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var marker_3a47570631e644a1a067dd68f11c8933 = L.marker(
+                [34.607685320422, 127.281436313236],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_92265e565c964836b529f88cfff34f0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3a47570631e644a1a067dd68f11c8933.setIcon(icon_92265e565c964836b529f88cfff34f0e);
+        
+    
+        var popup_1211815316484317a57c7c89e363d248 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_a5fcad0b675448e39ee1abf3ae2b1836 = $(`<div id="html_a5fcad0b675448e39ee1abf3ae2b1836" style="width: 100.0%; height: 100.0%;">전라남도 고흥군 고흥읍(소매점입구 부근)</div>`)[0];
+            popup_1211815316484317a57c7c89e363d248.setContent(html_a5fcad0b675448e39ee1abf3ae2b1836);
+        
+
+        marker_3a47570631e644a1a067dd68f11c8933.bindPopup(popup_1211815316484317a57c7c89e363d248)
+        ;
+
+        
+    
+    
+            var marker_975df9d47a6847a89542f74d9f6c7679 = L.marker(
+                [35.21099664458, 127.464026328353],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_0644852f64824e78b609d6ed401090da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_975df9d47a6847a89542f74d9f6c7679.setIcon(icon_0644852f64824e78b609d6ed401090da);
+        
+    
+        var popup_41d50221cd854517bcb83775eaeaa5de = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_45f396ccb5a64cc2be8dd1b79dd92ed4 = $(`<div id="html_45f396ccb5a64cc2be8dd1b79dd92ed4" style="width: 100.0%; height: 100.0%;">전라남도 구례군 구례읍(구례읍봉북리854 부근)</div>`)[0];
+            popup_41d50221cd854517bcb83775eaeaa5de.setContent(html_45f396ccb5a64cc2be8dd1b79dd92ed4);
+        
+
+        marker_975df9d47a6847a89542f74d9f6c7679.bindPopup(popup_41d50221cd854517bcb83775eaeaa5de)
+        ;
+
+        
+    
+    
+            var marker_f2c564d7c90f4b92872218704baa21d6 = L.marker(
+                [34.996120977002, 126.714191912128],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_68e40fbe362f450baf8fc56dab03e9d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f2c564d7c90f4b92872218704baa21d6.setIcon(icon_68e40fbe362f450baf8fc56dab03e9d2);
+        
+    
+        var popup_ebce4edb75df4b94ad63bf04f9b4865c = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_e89753772b6f4dfa89c77907541f9c8b = $(`<div id="html_e89753772b6f4dfa89c77907541f9c8b" style="width: 100.0%; height: 100.0%;">전라남도 나주시 이창동(이창1길1 부근)</div>`)[0];
+            popup_ebce4edb75df4b94ad63bf04f9b4865c.setContent(html_e89753772b6f4dfa89c77907541f9c8b);
+        
+
+        marker_f2c564d7c90f4b92872218704baa21d6.bindPopup(popup_ebce4edb75df4b94ad63bf04f9b4865c)
+        ;
+
+        
+    
+    
+            var marker_b6016018ea904c66874529e9c3c398b3 = L.marker(
+                [34.799235324252, 126.392500779389],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_113a8b34c89b43c8acad4c7ebc3f56b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b6016018ea904c66874529e9c3c398b3.setIcon(icon_113a8b34c89b43c8acad4c7ebc3f56b6);
+        
+    
+        var popup_a485c9390d934d49b230cf229b86e319 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_cff5acd1d3d74299aa71a23f61c09b42 = $(`<div id="html_cff5acd1d3d74299aa71a23f61c09b42" style="width: 100.0%; height: 100.0%;">전라남도 목포시 산정동(산정로1201 부근)</div>`)[0];
+            popup_a485c9390d934d49b230cf229b86e319.setContent(html_cff5acd1d3d74299aa71a23f61c09b42);
+        
+
+        marker_b6016018ea904c66874529e9c3c398b3.bindPopup(popup_a485c9390d934d49b230cf229b86e319)
+        ;
+
+        
+    
+    
+            var marker_f01193c9a75a470faeb2d4733b690790 = L.marker(
+                [34.798277361912, 126.382720273523],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_312ec9cde0e14575af48a2d4ce6f3ce2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f01193c9a75a470faeb2d4733b690790.setIcon(icon_312ec9cde0e14575af48a2d4ce6f3ce2);
+        
+    
+        var popup_aaa754ba19bc42a7a9a6ec390476edbb = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_0df06bdd1aac4143b9246d719b7beed4 = $(`<div id="html_0df06bdd1aac4143b9246d719b7beed4" style="width: 100.0%; height: 100.0%;">전라남도 목포시 대성동(청호로571 부근)</div>`)[0];
+            popup_aaa754ba19bc42a7a9a6ec390476edbb.setContent(html_0df06bdd1aac4143b9246d719b7beed4);
+        
+
+        marker_f01193c9a75a470faeb2d4733b690790.bindPopup(popup_aaa754ba19bc42a7a9a6ec390476edbb)
+        ;
+
+        
+    
+    
+            var marker_31c96e3a06834604b22949b3465754ad = L.marker(
+                [34.79033287956, 126.390156316962],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_2c75dc92c47743eb92139388b17f6de6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_31c96e3a06834604b22949b3465754ad.setIcon(icon_2c75dc92c47743eb92139388b17f6de6);
+        
+    
+        var popup_8a93e0f5b5734091badabddc5c417b99 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_5a01e5feab1d4cf79de3d88da7fae558 = $(`<div id="html_5a01e5feab1d4cf79de3d88da7fae558" style="width: 100.0%; height: 100.0%;">전라남도 목포시 호남동(남새싹2길남새싹5길 부근)</div>`)[0];
+            popup_8a93e0f5b5734091badabddc5c417b99.setContent(html_5a01e5feab1d4cf79de3d88da7fae558);
+        
+
+        marker_31c96e3a06834604b22949b3465754ad.bindPopup(popup_8a93e0f5b5734091badabddc5c417b99)
+        ;
+
+        
+    
+    
+            var marker_4be7fa7709e54a29a081c6adf31c62f5 = L.marker(
+                [34.803619353751, 126.39459856857],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_a82dc04985624f529655063cedce62be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4be7fa7709e54a29a081c6adf31c62f5.setIcon(icon_a82dc04985624f529655063cedce62be);
+        
+    
+        var popup_e21d9864ef5a4ddfaed900f56c919089 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_b4b7e811b3f34897b3e33d3e2636112f = $(`<div id="html_b4b7e811b3f34897b3e33d3e2636112f" style="width: 100.0%; height: 100.0%;">전라남도 목포시 용당동(연동파출소앞 부근)</div>`)[0];
+            popup_e21d9864ef5a4ddfaed900f56c919089.setContent(html_b4b7e811b3f34897b3e33d3e2636112f);
+        
+
+        marker_4be7fa7709e54a29a081c6adf31c62f5.bindPopup(popup_e21d9864ef5a4ddfaed900f56c919089)
+        ;
+
+        
+    
+    
+            var marker_969f366fac5c4443a4ba4de6dd52e02c = L.marker(
+                [34.791723201765, 126.384715775614],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_62b7091d063d46e48127b14e6fe83201 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_969f366fac5c4443a4ba4de6dd52e02c.setIcon(icon_62b7091d063d46e48127b14e6fe83201);
+        
+    
+        var popup_2860fbec958044e5be70c6f065c87632 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_092387f927844d83996c234ba5c5e7f6 = $(`<div id="html_092387f927844d83996c234ba5c5e7f6" style="width: 100.0%; height: 100.0%;">전라남도 목포시 명륜동(김양순내과의원 부근)</div>`)[0];
+            popup_2860fbec958044e5be70c6f065c87632.setContent(html_092387f927844d83996c234ba5c5e7f6);
+        
+
+        marker_969f366fac5c4443a4ba4de6dd52e02c.bindPopup(popup_2860fbec958044e5be70c6f065c87632)
+        ;
+
+        
+    
+    
+            var marker_dcfc9d1b73114fd89b593e1b9a8330fb = L.marker(
+                [34.987344458081, 126.478026908516],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_720c9618a97540c3ba961fc5fded5e8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_dcfc9d1b73114fd89b593e1b9a8330fb.setIcon(icon_720c9618a97540c3ba961fc5fded5e8c);
+        
+    
+        var popup_de5a85f585b0407983290b887c90afa6 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_233ef39d83914eecace266914bdbee25 = $(`<div id="html_233ef39d83914eecace266914bdbee25" style="width: 100.0%; height: 100.0%;">전라남도 무안군 무안읍(무안로502 부근)</div>`)[0];
+            popup_de5a85f585b0407983290b887c90afa6.setContent(html_233ef39d83914eecace266914bdbee25);
+        
+
+        marker_dcfc9d1b73114fd89b593e1b9a8330fb.bindPopup(popup_de5a85f585b0407983290b887c90afa6)
+        ;
+
+        
+    
+    
+            var marker_f63b4b6d068d4c34a5494d69c448ea91 = L.marker(
+                [34.84290612312, 127.345765550341],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_2f0bc8f5966e435f8302caee1ead6cdd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f63b4b6d068d4c34a5494d69c448ea91.setIcon(icon_2f0bc8f5966e435f8302caee1ead6cdd);
+        
+    
+        var popup_8973ab82f4094ac689ee136cbb11cc18 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_8a51da2f6fad4570b622708c9543578b = $(`<div id="html_8a51da2f6fad4570b622708c9543578b" style="width: 100.0%; height: 100.0%;">전라남도 보성군 벌교읍(역전삼거리 부근)</div>`)[0];
+            popup_8973ab82f4094ac689ee136cbb11cc18.setContent(html_8a51da2f6fad4570b622708c9543578b);
+        
+
+        marker_f63b4b6d068d4c34a5494d69c448ea91.bindPopup(popup_8973ab82f4094ac689ee136cbb11cc18)
+        ;
+
+        
+    
+    
+            var marker_06f7603a51fb48fe93d975e503ed5731 = L.marker(
+                [34.946286522506, 127.494075779675],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_2c3c227230904d28a81484d1d8363168 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_06f7603a51fb48fe93d975e503ed5731.setIcon(icon_2c3c227230904d28a81484d1d8363168);
+        
+    
+        var popup_519a0dfab8b543c89a4a730f81ba40f6 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_662e09bb2d984ee3854c67234a6d864a = $(`<div id="html_662e09bb2d984ee3854c67234a6d864a" style="width: 100.0%; height: 100.0%;">전라남도 순천시 인제동(남부시장사거리아랫시장 부근)</div>`)[0];
+            popup_519a0dfab8b543c89a4a730f81ba40f6.setContent(html_662e09bb2d984ee3854c67234a6d864a);
+        
+
+        marker_06f7603a51fb48fe93d975e503ed5731.bindPopup(popup_519a0dfab8b543c89a4a730f81ba40f6)
+        ;
+
+        
+    
+    
+            var marker_cd15619f320f470db8caa0fbc97c353c = L.marker(
+                [34.945916852582, 127.500530191516],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_e28350912949409194c777c6268d27b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_cd15619f320f470db8caa0fbc97c353c.setIcon(icon_e28350912949409194c777c6268d27b6);
+        
+    
+        var popup_9311d02bcdf1458f80822d2df29ec94a = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_ae853b2c4bf54f4b8000de6538d9799e = $(`<div id="html_ae853b2c4bf54f4b8000de6538d9799e" style="width: 100.0%; height: 100.0%;">전라남도 순천시 조곡동(순천역앞역전거리 부근)</div>`)[0];
+            popup_9311d02bcdf1458f80822d2df29ec94a.setContent(html_ae853b2c4bf54f4b8000de6538d9799e);
+        
+
+        marker_cd15619f320f470db8caa0fbc97c353c.bindPopup(popup_9311d02bcdf1458f80822d2df29ec94a)
+        ;
+
+        
+    
+    
+            var marker_5bb88a923ed54b29b5d5064d69de7a7c = L.marker(
+                [34.864961963025, 126.313883958979],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_d21c682851bf4e5286f0cb68649f551c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5bb88a923ed54b29b5d5064d69de7a7c.setIcon(icon_d21c682851bf4e5286f0cb68649f551c);
+        
+    
+        var popup_ddd3fc9359a04a36b93622f3d59e0ddc = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_f2a01b51e6004120b5361b85e9405209 = $(`<div id="html_f2a01b51e6004120b5361b85e9405209" style="width: 100.0%; height: 100.0%;">전라남도 신안군 압해읍(압해로887 부근)</div>`)[0];
+            popup_ddd3fc9359a04a36b93622f3d59e0ddc.setContent(html_f2a01b51e6004120b5361b85e9405209);
+        
+
+        marker_5bb88a923ed54b29b5d5064d69de7a7c.bindPopup(popup_ddd3fc9359a04a36b93622f3d59e0ddc)
+        ;
+
+        
+    
+    
+            var marker_b211ce912cbc407381ace38d5130b171 = L.marker(
+                [34.740246552837, 127.730129903174],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_c29ca3106efc45ea987d696703fca5c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b211ce912cbc407381ace38d5130b171.setIcon(icon_c29ca3106efc45ea987d696703fca5c2);
+        
+    
+        var popup_e32e7e70304f42b3a017720acecef4ed = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_b3828b8218ca4fa49489a5dc4e077081 = $(`<div id="html_b3828b8218ca4fa49489a5dc4e077081" style="width: 100.0%; height: 100.0%;">전라남도 여수시 서교동(중앙로17 부근)</div>`)[0];
+            popup_e32e7e70304f42b3a017720acecef4ed.setContent(html_b3828b8218ca4fa49489a5dc4e077081);
+        
+
+        marker_b211ce912cbc407381ace38d5130b171.bindPopup(popup_e32e7e70304f42b3a017720acecef4ed)
+        ;
+
+        
+    
+    
+            var marker_c49211386a7346e9a0fb7b53490fc370 = L.marker(
+                [34.742648096134, 127.727846044261],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_b07b489d2d614df3a9fa77a24f253a98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c49211386a7346e9a0fb7b53490fc370.setIcon(icon_b07b489d2d614df3a9fa77a24f253a98);
+        
+    
+        var popup_c29975ec40f34ed5939e94261ff47866 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_dfbf4defe446482d8ddbf0ca7d562da1 = $(`<div id="html_dfbf4defe446482d8ddbf0ca7d562da1" style="width: 100.0%; height: 100.0%;">전라남도 여수시 충무동(한재사거리 부근)</div>`)[0];
+            popup_c29975ec40f34ed5939e94261ff47866.setContent(html_dfbf4defe446482d8ddbf0ca7d562da1);
+        
+
+        marker_c49211386a7346e9a0fb7b53490fc370.bindPopup(popup_c29975ec40f34ed5939e94261ff47866)
+        ;
+
+        
+    
+    
+            var marker_02a039378efb492495e79f856d307023 = L.marker(
+                [34.746361790765, 127.743320626547],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_7fd5a55771e747efb4911f5803c1044c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_02a039378efb492495e79f856d307023.setIcon(icon_7fd5a55771e747efb4911f5803c1044c);
+        
+    
+        var popup_22b43d7db541477f8942540d916778fb = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_99754960e201420884102fae520c4271 = $(`<div id="html_99754960e201420884102fae520c4271" style="width: 100.0%; height: 100.0%;">전라남도 여수시 공화동(공화동사거리 부근)</div>`)[0];
+            popup_22b43d7db541477f8942540d916778fb.setContent(html_99754960e201420884102fae520c4271);
+        
+
+        marker_02a039378efb492495e79f856d307023.bindPopup(popup_22b43d7db541477f8942540d916778fb)
+        ;
+
+        
+    
+    
+            var marker_9c981fe151684e4794299078794a4387 = L.marker(
+                [35.27597560589, 126.502925387598],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_6dbf50c2c37e404cad1df2c68f8b2f17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9c981fe151684e4794299078794a4387.setIcon(icon_6dbf50c2c37e404cad1df2c68f8b2f17);
+        
+    
+        var popup_1319d4636215445986fbb0c97696fa6f = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_6c8e7a7ca04447389f9464d2914e3774 = $(`<div id="html_6c8e7a7ca04447389f9464d2914e3774" style="width: 100.0%; height: 100.0%;">전라남도 영광군 영광읍(영광종합터미널사거리 부근)</div>`)[0];
+            popup_1319d4636215445986fbb0c97696fa6f.setContent(html_6c8e7a7ca04447389f9464d2914e3774);
+        
+
+        marker_9c981fe151684e4794299078794a4387.bindPopup(popup_1319d4636215445986fbb0c97696fa6f)
+        ;
+
+        
+    
+    
+            var marker_aa53e90b6949466895571eddfb1027d4 = L.marker(
+                [34.868630638494, 126.609335938404],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_4d427eeed32a4c339f4294cf38f56215 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_aa53e90b6949466895571eddfb1027d4.setIcon(icon_4d427eeed32a4c339f4294cf38f56215);
+        
+    
+        var popup_28eaf488fc574d9082db91617710296a = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_ad85113460ef4658a2970f1cb5044471 = $(`<div id="html_ad85113460ef4658a2970f1cb5044471" style="width: 100.0%; height: 100.0%;">전라남도 영암군 시종면(마한로1276 부근)</div>`)[0];
+            popup_28eaf488fc574d9082db91617710296a.setContent(html_ad85113460ef4658a2970f1cb5044471);
+        
+
+        marker_aa53e90b6949466895571eddfb1027d4.bindPopup(popup_28eaf488fc574d9082db91617710296a)
+        ;
+
+        
+    
+    
+            var marker_0a70213181f64acf832a0796a74ce99c = L.marker(
+                [34.48197223743, 126.258262108111],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_3df7cb02d99f4623948372f41fb263e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0a70213181f64acf832a0796a74ce99c.setIcon(icon_3df7cb02d99f4623948372f41fb263e0);
+        
+    
+        var popup_6d52eae9ff494ffb9121f87d160516fd = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_c4c3b07fe0d74d8d83211453496886ea = $(`<div id="html_c4c3b07fe0d74d8d83211453496886ea" style="width: 100.0%; height: 100.0%;">전라남도 진도군 진도읍(진도읍남동리7322 부근)</div>`)[0];
+            popup_6d52eae9ff494ffb9121f87d160516fd.setContent(html_c4c3b07fe0d74d8d83211453496886ea);
+        
+
+        marker_0a70213181f64acf832a0796a74ce99c.bindPopup(popup_6d52eae9ff494ffb9121f87d160516fd)
+        ;
+
+        
+    
+    
+            var marker_b5faa02450fa4ed497e7340ce0e08058 = L.marker(
+                [35.062683247835, 126.522737917222],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_6f14e6f2f3284cf68ae5c6245725ef08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b5faa02450fa4ed497e7340ce0e08058.setIcon(icon_6f14e6f2f3284cf68ae5c6245725ef08);
+        
+    
+        var popup_79dd0291171742df8b953fdbb5433640 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_dd9193669438484abb5ab046e643395d = $(`<div id="html_dd9193669438484abb5ab046e643395d" style="width: 100.0%; height: 100.0%;">전라남도 함평군 함평읍(KT함평지점입구 부근)</div>`)[0];
+            popup_79dd0291171742df8b953fdbb5433640.setContent(html_dd9193669438484abb5ab046e643395d);
+        
+
+        marker_b5faa02450fa4ed497e7340ce0e08058.bindPopup(popup_79dd0291171742df8b953fdbb5433640)
+        ;
+
+        
+    
+    
+            var marker_bc32ac0ad7554d928e75c42ae222acd9 = L.marker(
+                [34.567299405944, 126.595958607505],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_5266fcd437974a5e958d7f65b3da3294 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bc32ac0ad7554d928e75c42ae222acd9.setIcon(icon_5266fcd437974a5e958d7f65b3da3294);
+        
+    
+        var popup_f70d375396ad4d3eb01824bec27f93d0 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_1fd47b32386844899ef80c5a78e32176 = $(`<div id="html_1fd47b32386844899ef80c5a78e32176" style="width: 100.0%; height: 100.0%;">전라남도 해남군 해남읍(해남군수협 부근)</div>`)[0];
+            popup_f70d375396ad4d3eb01824bec27f93d0.setContent(html_1fd47b32386844899ef80c5a78e32176);
+        
+
+        marker_bc32ac0ad7554d928e75c42ae222acd9.bindPopup(popup_f70d375396ad4d3eb01824bec27f93d0)
+        ;
+
+        
+    
+    
+            var marker_1114f79e7a8c492dba883c125fe2566a = L.marker(
+                [35.059244814098, 126.99243303226],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_af11c3c7ff344000a0e98f6659c03a50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1114f79e7a8c492dba883c125fe2566a.setIcon(icon_af11c3c7ff344000a0e98f6659c03a50);
+        
+    
+        var popup_0bef11e12de442afbac6af16076cb5d3 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_3f57f3d4737f43fbb533af626a0d1c0c = $(`<div id="html_3f57f3d4737f43fbb533af626a0d1c0c" style="width: 100.0%; height: 100.0%;">전라남도 화순군 화순읍(정자입구 부근)</div>`)[0];
+            popup_0bef11e12de442afbac6af16076cb5d3.setContent(html_3f57f3d4737f43fbb533af626a0d1c0c);
+        
+
+        marker_1114f79e7a8c492dba883c125fe2566a.bindPopup(popup_0bef11e12de442afbac6af16076cb5d3)
+        ;
+
+        
+    
+    
+            var marker_1c90c67c159747b3b60f4b066f986fef = L.marker(
+                [35.061758580195, 126.985191269363],
+                {}
+            ).addTo(map_b2b3165e0d1243d7b16f2b8f6c1ba60d);
+        
+    
+            var icon_5934268bf8bc40a0822b23e5d1c6d71c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1c90c67c159747b3b60f4b066f986fef.setIcon(icon_5934268bf8bc40a0822b23e5d1c6d71c);
+        
+    
+        var popup_56dc25dd8951416493518eaa1b047f7e = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_743f4c31d4334183bd727c237317e241 = $(`<div id="html_743f4c31d4334183bd727c237317e241" style="width: 100.0%; height: 100.0%;">전라남도 화순군 화순읍(새마을금고입구 부근)</div>`)[0];
+            popup_56dc25dd8951416493518eaa1b047f7e.setContent(html_743f4c31d4334183bd727c237317e241);
+        
+
+        marker_1c90c67c159747b3b60f4b066f986fef.bindPopup(popup_56dc25dd8951416493518eaa1b047f7e)
+        ;
+
+        
+    
+</script>

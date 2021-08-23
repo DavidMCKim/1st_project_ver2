@@ -1,0 +1,148 @@
+@charset "UTF-8";
+.Container{
+    margin-left:300px;
+}
+
+.m-0{
+    width:80%;
+}
+.accent{ color:#FF6666; font-weight:bold;}
+.accent_final{color:#FF6666; font-weight:bold; font-size:20px;}
+
+.problem{
+    width:800px;
+    height:400px;
+    margin-left:300px;
+}
+
+#Goal{
+    width:1000px;
+    margin-left:300px;
+}
+
+/* slideShow가 있어야 하나 의문이 드넹..좀더 알아보자..!! */
+#slideShow{
+    positive:relative;
+    background:white;
+    height:520px;
+    line-height:520px;
+}
+
+#slideShow2{
+    positive:relative;
+    background:white;
+    height:900px;
+}
+
+#slideShowBox, #slideShowBox2{
+    width:1000px;
+    height:680px;
+    text-align:center;
+    overflow:hidden;  영역 벗어나면 숨김 */
+}
+
+#explainBox{
+    width:900px;
+    height:200px;
+    text-align:center;
+    overflow:hidden;    /* 영역 벗어나면 숨김 */
+}
+
+#slidePanel, #data_visual{
+    position:relative;
+    width:10000px;
+    height:550px;
+}
+
+#explainText{
+    display:flex;
+    justify-content:space-around;
+    position:relative;
+    width:9000px;
+    height:40px;
+
+}
+.visual-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+#foliumBox{
+    border:solid;
+    width:800px;
+    height:550px;
+    position:relative;
+    margin:0 auto;
+    margin-top:10px;
+    margin-left:100px;
+}
+
+
+.text{
+    flex-basis:780px;
+    text-align: justify
+}
+
+.slideImage{
+    float:left;
+    width:1000px;
+    height:680px;
+}
+
+.table{ margin-top:50px; }
+
+.table th{
+    background:#FF6666;
+    align:center;
+    valign:middle;
+ }
+
+.table td{
+    align:center;
+    valign:middle;
+}
+
+/* 컨트롤 버튼 */
+#controlPanel{ margin:0 auto; width:320px; height:20px; margin-top:20px;}
+#controlPanel2{ margin:0 auto; width:500px; height:40px;margin-top:20px;}
+
+#controlPanel img, #controlPanel2 img{ float:left; margin:10px; }
+
+#foliumBox li{
+    float:left;
+    text-align:center;
+    width:16%; /* 항목을 동일한 너비로 */
+    height:30px;
+    line-height:30px;
+    color:black;
+    list-style:none;
+}
+
+#foliumBox li a{
+    text-decoration:none;
+    color:black;
+}
+
+#multiLogo{
+    width:200px;
+    height:40px;
+}
+
+#mapName{
+    display:flex;
+    justify-content:space-around;
+}
+
+#div1{
+    border: solid;
+    width:1000px;
+    height:600px;
+    position:relative;
+    margin:0 auto;
+    margin-top:10px;"
+}
+
+#analysisPNG{
+    width:1000px;
+    height:700px;
+}
