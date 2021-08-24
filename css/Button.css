@@ -1,39 +1,19 @@
 @charset "UTF-8";
-.Container{
-    margin-left:300px;
+
+
+
+/*----------------------------- 데이터멀캠? 관련 CSS 속성 -----------------------------*/
+
+#multiLogo{
+    margin:0 auto;
+    width:200px;
+    height:40px;
 }
 
-.m-0{
-    width:80%;
-}
-.accent{ color:#FF6666; font-weight:bold;}
-.accent_final{color:#FF6666; font-weight:bold; font-size:20px;}
 
-/* prev/next 버튼 */
-#prevNextButtonBox{
-    position:relative;
-    z-index:10;
-}
 
-#prevButton{
-    position:absolute;
-    top:201px;
-    left:0.2%;
-    opacity:0.8;
-    cursor:pointer;
-}
+/*----------------------------- 프로젝트 소개 관련 CSS 속성 -----------------------------*/
 
-#nextButton{
-    position:absolute;
-    top:201px;
-    right:0.2%;
-    opacity:0.8;
-    cursor:pointer;
-}
-
-#prevButton:hover{ opacity:1; }
-#nextButton:hover{ opacity:1; }
-/* --------------------------- prev/next버튼 끝 ---------------------------*/
 .problemSlide{
     width:800px;
     height:600px;
@@ -53,79 +33,14 @@
     height:400px;
 }
 
-
 #Goal{
     width:1000px;
 }
 
-/* slideShow가 있어야 하나 의문이 드넹..좀더 알아보자..!! */
-#slideShow{
-    positive:relative;
-    background:white;
-    height:520px;
-    line-height:520px;
-}
-
-#slideShow2{
-    positive:relative;
-    background:white;
-    height:900px;
-}
-
-#slideShowBox, #slideShowBox2{
-    width:1000px;
-    height:680px;
-    text-align:center;
-    overflow:hidden;  영역 벗어나면 숨김 */
-}
-
-#explainBox{
-    width:900px;
-    height:200px;
-    text-align:center;
-    overflow:hidden;    /* 영역 벗어나면 숨김 */
-}
-
-#slidePanel, #data_visual{
-    position:relative;
-    width:10000px;
-    height:550px;
-}
-
-#explainText{
-    display:flex;
-    justify-content:space-around;
-    position:relative;
-    width:9000px;
-    height:40px;
-
-}
-.visual-container{
-    display:flex;
-    justify-content: space-around;
-}
-
-#foliumBox{
-    border:solid;
-    width:800px;
-    height:550px;
-    position:relative;
-    margin:0 auto;
-    margin-top:10px;
-    margin-left:100px;
-}
 
 
-.text{
-    flex-basis:780px;
-    text-align: justify
-}
 
-.slideImage{
-    float:left;
-    width:1000px;
-    height:680px;
-}
+/*----------------------------- 일정 및 역할 관련 CSS 속성 -----------------------------*/
 
 .table{ margin-top:50px; }
 
@@ -140,32 +55,74 @@
     valign:middle;
 }
 
+
+
+
+/*----------------------------- 데이터 소개 관련 CSS 속성 -----------------------------*/
+
+/* slideShow가 있어야 하나 의문이 드넹..좀더 알아보자..!! */
+#slideShow{
+    positive:relative;
+    background:white;
+    height:520px;
+    line-height:520px;
+}
+
+#slideShowBox{
+    width:1000px;
+    height:680px;
+    text-align:center;
+    overflow:hidden;  영역 벗어나면 숨김 */
+}
+
+#slidePanel{
+    position:relative;
+    width:10000px;
+    height:550px;
+}
+
+
+
+
+/*----------------------------- 데이터 시각화 및 소개에 사용할 이미지 관련 CSS속성 -----------------------------*/
+
+.slideImage{
+    float:left;
+    width:1000px;
+    height:680px;
+}
+
 /* 컨트롤 버튼 */
-#controlPannel{ margin:0 auto; width:320px; height:20px; margin-top:20px;}
 #controlPanel{ margin:0 auto; width:320px; height:20px; margin-top:20px;}
 #controlPanel2{ margin:0 auto; width:500px; height:40px;margin-top:20px;}
-
 #controlPanel img, #controlPanel2 img{ float:left; margin:10px; }
 
-#foliumBox li{
-    float:left;
+
+
+/*----------------------------- 데이터 시각화 관련 CSS 속성 -----------------------------*/
+
+#slideShow2{
+    positive:relative;
+    background:white;
+    height:900px;
+}
+
+#slideShowBox2{
+    width:1000px;
+    height:680px;
     text-align:center;
-    width:16%; /* 항목을 동일한 너비로 */
-    height:30px;
-    line-height:30px;
-    color:black;
-    list-style:none;
+    overflow:hidden;  영역 벗어나면 숨김 */
 }
 
-#foliumBox li a{
-    text-decoration:none;
-    color:black;
+#data_visual{
+    position:relative;
+    width:10000px;
+    height:550px;
 }
 
-#multiLogo{
-    margin:0 auto;
-    width:200px;
-    height:40px;
+.visual-container{
+    display:flex;
+    justify-content: space-around;
 }
 
 #mapName{
@@ -181,6 +138,31 @@
     margin-top:10px;"
 }
 
+#explainBox{
+    width:900px;
+    height:200px;
+    text-align:center;
+    overflow:hidden;    /* 영역 벗어나면 숨김 */
+}
+
+#explainText{
+    display:flex;
+    justify-content:space-around;
+    position:relative;
+    width:9000px;
+    height:40px;
+
+}
+
+.text{
+    flex-basis:780px;
+    text-align: justify
+}
+
+
+
+/*----------------------------- 데이터 분석 관련 CSS 속성 -----------------------------*/
+
 #analysisPNG{
     width:1000px;
     height:700px;
@@ -194,3 +176,5 @@
     align-items: center;
     overflow:hidden;
 }
+
+/*--------------------------------------------------------------------------------*/

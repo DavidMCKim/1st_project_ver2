@@ -5,3 +5,10 @@
 .Container{
     margin-left:300px;
 }
+
+.m-0{
+    width:80%;
+}
+
+.accent{ color:#FF6666; font-weight:bold;}
+.accent_final{color:#FF6666; font-weight:bold; font-size:20px;}
